@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discovering Japan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Discovering Japan</h1>
+    </header>
+    <section id="intro">
+      <p>
+        Welcome to our travel blog where we explore the beauty and culture of
+        Japan!
+      </p>
+    </section>
+    <h2 id="gallery">Gallery</h2>
+    <section class="gallery">
+      <div class="image">
+        <img src="./images/Tokyo.jpg" alt="Tokyo at night" />
+        <p>Tokyo at night</p>
+      </div>
+      <div class="image">
+        <img src="./images/Kyoto.jpg" alt="Kyoto temple" />
+        <p>Kyoto temple</p>
+      </div>
+      <div class="image">
+        <img src="./images/mt-fuji.jpeg" alt="Mount Fuji" />
+        <p>Mount Fuji</p>
+      </div>
+    </section>
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+      <label>
+        <input type="checkbox" name="subscribe" checked />
+        Subscribe to our newsletter
+      </label>
+    </form>
+    <footer>
+      <p>&copy; 2024 Discovering Japan. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
